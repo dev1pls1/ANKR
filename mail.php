@@ -7,7 +7,7 @@
   $sender_email = 'no-reply@ankr.network';
 
   $email = ( isset($_POST["Email"]) ) ? trim($_POST["Email"]) : '';
-  $recipient_emails = ['info@anker.network'];
+  $recipient_emails = ['info@ankr.network'];
   $subject = "Ankr Network Feedback from subscriber $email";
 
   $SesClient = new SesClient([
@@ -27,7 +27,7 @@
   $char_set = 'UTF-8';
 
   try {
-    if ($sender_email) {
+    if ($email) {
       $result = $SesClient->sendEmail([
           'Destination' => [
               'ToAddresses' => $recipient_emails,
