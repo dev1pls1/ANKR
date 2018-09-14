@@ -6,7 +6,7 @@
 
   $file = false;
   $sender_email = 'no-reply@ankr.network';
-  $to_email = 'career@ankr.network'
+  $to_email = 'career@ankr.network';
 
   if ($_FILES['file']['size']) {
     $tmp_file = $_FILES["file"]["tmp_name"];
