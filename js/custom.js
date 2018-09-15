@@ -173,7 +173,7 @@
 
 
 		var lastScrollTop = $(window).scrollTop();
-		
+
 
 
 		if($(window).width() > 767) {
@@ -281,7 +281,7 @@
 			}, 1000);
 		});
 
-		
+
 
 
 
@@ -297,7 +297,7 @@
 		}
 
 
-		$('.main-menu li a').on('click', function(element) { 
+		$('.main-menu li a').on('click', function(element) {
 			element.preventDefault();
 			$('.hamb').removeClass('opened');
 			$('.main__header').removeClass('opened');
@@ -444,7 +444,7 @@
 				setTimeout(function() {
 					$('.persons__item').removeClass('item-active');
 				}, 200);
-				
+
 			});
 		}
 
@@ -469,11 +469,11 @@
 
 
 		$(".telegram-link-list .telegram-link").on("webkitAnimationEnd mozAnimationEnd animationEnd", function(){
-			$(this).removeClass("move");  
+			$(this).removeClass("move");
 		});
 
 		$(".telegram-link-list .telegram-link").hover(function(){
-			$(this).addClass("move");        
+			$(this).addClass("move");
 		});
 
 
@@ -509,8 +509,10 @@
 
 		/* ---------- white list button ---------- */
 
-		$('.white-list-button').on('click', function() {
-      window.open('http://app.opentoken.com/contribute/ab314be7-378a-47f0-ba83-2470bcb7c67c/','contribute_opentoken','width=500,height=700,toolbar=0,menubar=0,status=1,scrollbars=1,resizable=0,left=0,top=0')
+		$('.white-list-button').attr('href', 'http://app.opentoken.com/contribute/ankr').on('click', function() {
+			var href = $(this).attr('href')
+			window.open(href,'contribute_opentoken','width=500,height=700,toolbar=0,menubar=0,status=1,scrollbars=1,resizable=0,left=0,top=0')
+			return false;
 		});
 
 
@@ -553,7 +555,7 @@
 			});
 		}
 
-		
+
 
 
 		// inititalize slider
@@ -645,7 +647,7 @@
 				}
 			});
 		},100);
-		
+
 
 
 
@@ -763,7 +765,7 @@
 						y: 5,
 						className: 'action marketing'
 					}
-				
+
 				]
 			}]
 		});
@@ -822,7 +824,7 @@
 			}
 		});
 
-		
+
 
 
 	});
@@ -831,14 +833,14 @@
 
 	/*window load*/
 	$(window).on('load', function() {
-        
+
 
 	});
 
 
 
 
-	
+
 
 
 
@@ -862,13 +864,10 @@
 		if($(window).width() > 767) {
 			equalHeight('.vision__advance .equal');
 		}
-		
+
 	});
 
 
 
 
-})(jQuery);	
-
-
-	
+})(jQuery);
