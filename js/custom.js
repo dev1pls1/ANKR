@@ -714,64 +714,6 @@
 
 		/* ---------- allocation ---------- */
 
-		Highcharts.chart('donut', {
-			colors: ['#5bccdd', '#4a94da', '#d470a2', '#ffcd7f', '#55c2b3'],
-			chart: {
-				type: 'pie',
-				options3d: {
-					enabled: true,
-					alpha: 60,
-					beta: 0
-				}
-			},
-			title: false,
-			tooltip: false,
-			plotOptions: {
-				pie: {
-					allowPointSelect: true,
-					cursor: 'pointer',
-					depth: 65,
-					innerSize: 190,
-					dataLabels: {
-						enabled: false
-					}
-				}
-			},
-			series: [{
-				type: 'pie',
-				data: [
-					{
-						name: '',
-						y: 28,
-						className: 'action private'
-					},
-					{
-						name: '',
-						y: 7,
-						className: 'action public'
-					},
-					{
-						name: '',
-						y: 36,
-						className: 'action mining'
-					},
-					{
-						name: '',
-						y: 22,
-						className: 'action team'
-					},
-					{
-						name: '',
-						y: 5,
-						className: 'action marketing'
-					}
-
-				]
-			}]
-		});
-
-
-
 		if($(window).width() > 1024) {
 			tabs('.allocation-content', '.tab', '.tab-panel');
 
