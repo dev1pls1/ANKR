@@ -7,13 +7,13 @@
 	.linear-overlay-parent.first .linear-overlay {
 		/*top: 10.2%;*/
 		/*top: 7.8%;*/ /* ---------- last ---------- */
-		top: 8.5%;
+		top: 10.5%;
 		height: 18%;
 	}
 
 	.linear-overlay-parent.second .linear-overlay {
 		/*top: 16%;*/ /* ---------- last ---------- */
-		top: 16.7%;
+		top: 20.7%;
 		height: 18.5%;
 	}
 
@@ -197,18 +197,18 @@
 	.linear-overlay-parent.first .linear-overlay {
 		/*top: 8.8%;*/
 		/*top: 6.8%;*/ /* ---------- last ---------- */
-		top: 7.5%;
+		top: 9.5%;
 		height: 20.2%;
 	}
 
 	.linear-overlay-parent.second .linear-overlay {
 		/*top: 13.8%;*/ /* ---------- last ---------- */
-		top: 14.5%;
+		top: 16.5%;
 		height: 19.8%;
 	}
 
 	.linear-overlay-parent.third .linear-overlay {
-		top: 32%;
+		top: 39%;
 	}
 
 	.linear-overlay-parent.fourth .linear-overlay {
@@ -504,33 +504,33 @@
 	.linear-overlay-parent.first .linear-overlay {
 		/*top: 10.7%;*/
 		/*top: 8.2%;*/ /* ---------- last ---------- */
-		top: 8.9%;
+		top: 10.8%;
 	}
 
 	.linear-overlay-parent.second .linear-overlay {
 		/*top: 13.2%;*/ /* ---------- last ---------- */
-		top: 13.9%;
-		height: 22%;
+		top: 16.9%;
+		height: 26.7%;
 	}
 
 	.linear-overlay-parent.fourth .linear-overlay {
-		top: 49.5%;
+		top: 60.3%;
 	}
 
 	.linear-overlay-parent.five .linear-overlay {
-		top: 48%;
+		top: 58.5%;
 	}
 
 	.linear-overlay-parent.six .linear-overlay {
-		top: 59.5%;
+		top: 72.5%;
 	}
 
 	.linear-overlay-parent.eight .linear-overlay {
-		top: 87%;
+		top: 83%;
 	}
 
 	.linear-overlay-parent.seven .linear-overlay {
-		top: 87%;
+		top: 86%;
 		height: 31%;
 	}
 
@@ -624,7 +624,7 @@
 	}
 
 	.hero .white-paper-button-wrapper {
-		margin-bottom: 5rem;
+		margin-bottom: 0rem;
 	}
 
 
@@ -872,13 +872,13 @@
 	.linear-overlay-parent.first .linear-overlay {
 		/*top: 13.5%;*/
 		/*top: 9.7%;*/ /* ---------- last ---------- */
-		top: 10.3%;
+		top: 12.3%;
 	}
 
 	.linear-overlay-parent.second .linear-overlay {
 		/*top: 18.5%;*/
 		/*top: 14%;*/ /* ---------- last ---------- */
-		top: 14.5%;
+		top: 17.5%;
 		height: 14.5%;
 	}
 
@@ -1528,13 +1528,13 @@
 	/* ---------- overlays ---------- */
 
 	.linear-overlay-parent.first .linear-overlay {
-		top: 8%;
+		top: 9.5%;
 		height: 18%;
 	}
 
 	.linear-overlay-parent.second .linear-overlay {
 		height: 11%;
-		top: 10.5%;
+		top: 12.5%;
 	}
 
 	.linear-overlay-parent.third .linear-overlay {
@@ -1846,12 +1846,12 @@
 	.linear-overlay-parent.first .linear-overlay {
 		height: 18.5%;
 		/*top: 8.5%;*/ /* ---------- last ---------- */
-		top: 9.4%;
+		top: 11.1%;
 	}
 
 	.linear-overlay-parent.second .linear-overlay {
 		/*top: 10.2%;*/ /* ---------- last ---------- */
-		top: 11%;
+		top: 13%;
 		height: 10.5%;
 	}
 
@@ -2240,13 +2240,13 @@
 
 	.linear-overlay-parent.first .linear-overlay {
 		/*top: 8%;*/ /* ---------- last ---------- */
-		top: 8.8%;
+		top: 10.4%;
 		height: 16.5%;
 	}
 
 	.linear-overlay-parent.second .linear-overlay {
 		/*top: 9%;*/ /* ---------- last ---------- */
-		top: 9.8%;
+		top: 11.4%;
 		height: 11%;
 	}
 
@@ -2504,15 +2504,15 @@
 	}
 
 	.linear-overlay-parent.first .linear-overlay {
-		height: 17.2%;
+		height: 22.2%;
 		/*top: 5.5%;*/ /* ---------- last ---------- */
-		top: 6.2%;
+		top: 7.2%;
 	}
 
 	.linear-overlay-parent.second .linear-overlay {
-		height: 10.8%;
+		height: 12.6%;
 		/*top: 7.2%;*/ /* ---------- last ---------- */
-		top: 7.9%;
+		top: 9.2%;
 	}
 
 	.linear-overlay-parent.third .linear-overlay {
