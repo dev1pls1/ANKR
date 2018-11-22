@@ -2626,7 +2626,7 @@ body {
       height: 17%;
       /*top: 12.2%;*/
       /*top: 9.5%;*/ /* ---------- last ---------- */
-      top: 10.2%;
+      top: 13.2%;
       -webkit-transform: skewY(-34deg);
           -ms-transform: skewY(-34deg);
               transform: skewY(-34deg); }
@@ -2640,7 +2640,7 @@ body {
               transform: skewY(34deg);
       /*top: 20.9%;*/
       /*top: 16.7%;*/ /* ---------- last ---------- */
-      top: 17.4%; 
+      top: 20.4%; 
        }
   .linear-overlay-parent.third {
     z-index: 0; }
