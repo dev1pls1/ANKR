@@ -4,6 +4,8 @@
   $email = ( isset($_POST["Email"]) ) ? trim($_POST["Email"]) : '';
   $phone = ( isset($_POST["Phone"]) ) ? trim($_POST["Phone"]) : '';
   $option = ( isset($_POST["Option"]) ) ? trim($_POST["Option"]) : '';
+  $company = ( isset($_POST["Company"]) ) ? trim($_POST["Company"]) : '';
+  $companyWeb = ( isset($_POST["CompanyWeb"]) ) ? trim($_POST["CompanyWeb"]) : '';
   $text = trim($_POST["Message"]);
   $file = false;
 
@@ -13,7 +15,7 @@
     move_uploaded_file($tmp_file, $file);
   }
 
-  $to = "maksprocode@gmail.com";
+  $to = "career@ankr.network";
 
   $sitename = "ANKR-Network";
 
@@ -30,6 +32,12 @@
         <p>Phone: '.$phone.'</p>
         <p>Position: '.$option.'</p>
         <p>Message: '.$text.'</p>';
+        if($company) {
+          $message .= '<p>Company: '.$company.'</p> ';
+        }
+        if($companyWeb) {
+          $message .= '<p>Company website: '.$companyWeb.'</p> ';
+        }
         if($file){
           $message .= '<p>File: '.basename($_FILES['file']['name']).'</p> ';
         }
