@@ -1,6 +1,5 @@
-
-.DS_Store
-vendor/
-dist/
-.idea/
-node_modules/
+node_modules
+dev
+psd
+gulpfile.js
+package.json
