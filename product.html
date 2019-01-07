@@ -601,7 +601,7 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-xs-12 col-sm-3 animate-box">
+					<div class="col-xs-12 col-sm-4 animate-box">
 						<div class="computing__content_item animation">
 							<div class="computing__content_item--pos">
 								<span>01</span>
@@ -612,7 +612,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-xs-12 col-sm-3 animate-box">
+					<div class="col-xs-12 col-sm-3 animate-box" style="display:none;">
 						<div class="computing__content_item animation">
 							<div class="computing__content_item--pos">
 								<span>02</span>
@@ -623,10 +623,10 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-xs-12 col-sm-3 animate-box">
+					<div class="col-xs-12 col-sm-4 animate-box">
 						<div class="computing__content_item animation">
 							<div class="computing__content_item--pos">
-								<span>03</span>
+								<span>02</span>
 							</div>
 							<div class="computing__content_item--text">
 								<h6 class="computing__content_item--title">Public Cloud</h6>
@@ -634,10 +634,10 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-xs-12 col-sm-3 animate-box">
+					<div class="col-xs-12 col-sm-4 animate-box">
 						<div class="computing__content_item animation">
 							<div class="computing__content_item--pos">
-								<span>04</span>
+								<span>03</span>
 							</div>
 							<div class="computing__content_item--text">
 								<h6 class="computing__content_item--title">Distributed Cloud</h6>
@@ -962,20 +962,23 @@
 		<div class="data-center__content">
 			<div class="container">
 				<div class="row">
-					<div class="col-xs-12 animate-box">
-						<h3 class="section-title animation">Data Center</h3>
-					</div>
-				</div>
-				<div class="row">
 					<div class="col-xs-12 col-sm-6">
 						<div class="data-center__content_left animate-box">
+							<h3 class="section-title animation">Data Center</h3>
+							<div class="divider"></div>
 							<p class="animation">Small data center operators can improve the utilization rate for their resources, and thus improve both revenue and maintain a significant profit margin.</p>
 							<p class="animation" data-delay="0.15">Ankr would leverage the power of kubernetes to share the resources inside data centers. And also with the help of containers, all three tasks of jobs are suitable to be run in this framework.</p>
 						</div>
 					</div>
 					<div class="col-xs-12 col-sm-6">
 						<div class="data-center__content_right animate-box">
-							<h3 class="animation">Demo will be ready in January 2019</h3>
+							<div class="demo__screenshot">
+								<div class="video-container">
+									<div class="inner">
+										<div id="player" data-plyr-provider="youtube" data-plyr-embed-id="jrNanjJjWNA"></div>
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -991,11 +994,11 @@
 
 				<div class="container">
 					<div class="row">
-						<div class="col-xs-12 col-sm-6">
-							<div class="part-left animate-box">
+						<div class="col-xs-12 col-sm-7">
+							<div class="animate-box">
 								<h2 class="section-title animation">PC</h2>
 								<div class="divider"></div>
-								<h6 class="section-subtitle animation" data-delay="0.15">At Ankr, we have two solutions with PC’s computing power, they are:</h6>
+								<h6 class="section-subtitle animation" data-delay="0.15">Blockchain based on chain distributed cloud computing platform powered by Ankr innovative consensus protocol: Proof of Useful Work</h6>
 							</div>
 						</div>
 					</div>
@@ -1005,10 +1008,19 @@
 								<div class="solution__item animation">
 									<div class="solution__item_pos">
 										<span class="num">01</span>
-										<span>BOINC platform</span>
+										<span>Ankr DISTRIBUTED computing platform</span>
 									</div>
-									<p>BOINC is an centralized volunteer-based computing platform and is very suitable for batch processing.</p>
-									<a href="boinc" class="btn"><span></span>Demo is Ready</a>
+
+									<div class="solution__item_demo">
+										<div class="stub" style="background-image: url('img/stub-bg.jpg')"></div>
+										<div class="video-container">
+											<div class="inner">
+											<!-- <div id="demo-1" data-plyr-provider="youtube" data-plyr-embed-id="jrNanjJjWNA"></div> -->
+											</div>
+										</div>
+									</div>
+
+									<p class="solution__item_text">With Intel SGX enhanced BOINC Solution,  our cloud computing platform support contributors around world with Windows, Mac, Linux systems as distributed computing node.</p>
 								</div>
 							</div>
 						</div>
@@ -1019,21 +1031,30 @@
 										<span class="num">02</span>
 										<span>Blockchain based computing platform such as PoUW.</span>
 									</div>
-									<p>This is a platform best fit for event driven job or less intense batch processing because of the limitation of Intel SGX.</p>
-									<a href="javascript:void(0);" class="btn run-player"><span></span>Demo is Ready</a>
+									
+									<div class="solution__item_demo">
+										<div class="stub" style="background-image: url('img/stub-bg.jpg')"></div>
+										<div class="video-container">
+											<div class="inner">
+											<!-- <div id="demo-1" data-plyr-provider="youtube" data-plyr-embed-id="jrNanjJjWNA"></div> -->
+											</div>
+										</div>
+									</div>
+
+									<p class="solution__item_text">With Intel latest SGX Security and Remote Attestation Tech. Ankr invented new consensus protocol Proof of Useful Work to replace PoW.</p>
+									<!-- <a href="javascript:void(0);" class="btn run-player"><span></span>Demo is Ready</a> -->
 								</div>
 							</div>
 						</div>
 					</div>
-				</div>
-
-				<div class="demo__screenshot animate-box">
-					<div class="video-container">
-						<div class="inner">
-							<div id="player" data-plyr-provider="youtube" data-plyr-embed-id="jrNanjJjWNA"></div>
+					<div class="row">
+						<div class="col-xs-12">
+							<a href="boinc" class="btn learn-more"><span></span>Learn More &amp; Download</a>
 						</div>
 					</div>
 				</div>
+
+				
 
 			</div>
 
@@ -1044,7 +1065,7 @@
 							<div class="part-left animate-box">
 								<h2 class="section-title animation">Mobile/Edge Devices</h2>
 								<div class="divider"></div>
-								<p class="animation" data-delay="0.15">Mobile can be fit most for the large amount small batch process jobs. This will highly leverage ARM TrustZone and potentially expand to solutions related to IoT technology.</p>
+								<p class="solution__item_text animation" data-delay="0.15">Mobile can be fit most for the large amount small batch process jobs. This will highly leverage ARM TrustZone and potentially expand to solutions related to IoT technology.</p>
 							</div>
 						</div>
 					</div>
@@ -1564,18 +1585,6 @@
 							</div>
 						</div>
 
-						<!-- <div class="slide__person">
-							<div class="slide__person_image--wrapper">
-								<div class="slide__person_image" style="background-image: url('img/christel.jpg')"></div>
-							</div>
-							<div class="slide__person_description">
-								<h5 class="slide__person_name">Christel Quek</h5>
-								<p class="slide__person_pos">Marketing Advisor</p>
-								<div class="line"></div>
-								<p class="slide__person_text">Christel Quek is a renowned entrepreneur and influence. She founded BOLT, the world’s first open entertainment economy. She is also the advisor to Zilliqa.</p>
-							</div>
-						</div> -->
-
 						<div class="slide__person">
 							<div class="slide__person_image--wrapper">
 								<div class="slide__person_image" style="background-image: url('img/hanpin.jpg')"></div>
@@ -1741,6 +1750,18 @@
 								<p class="slide__person_pos">Software Engineer</p>
 								<div class="line"></div>
 								<p class="slide__person_text">Sang Haifa is a s Software engineer, having three years of cloud computing development experience and two years of block chain development experience, make him have his own understanding of block chain and cloud computing.</p>
+							</div>
+						</div>
+
+						<div class="slide__person">
+							<div class="slide__person_image--wrapper">
+								<div class="slide__person_image" style="background-image: url('img/christel.jpg')"></div>
+							</div>
+							<div class="slide__person_description">
+								<h5 class="slide__person_name">Christel Quek</h5>
+								<p class="slide__person_pos">Marketing Advisor</p>
+								<div class="line"></div>
+								<p class="slide__person_text">Christel Quek is a renowned entrepreneur and influence. She founded BOLT, the world’s first open entertainment economy. She is also the advisor to Zilliqa.</p>
 							</div>
 						</div>
 
