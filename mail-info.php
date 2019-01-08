@@ -1,8 +1,11 @@
 <?php
+<<<<<<< HEAD
   require 'vendor/autoload.php';
 
   use Aws\Ses\SesClient;
   use Aws\Exception\AwsException;
+=======
+>>>>>>> fb252cdb126495a26370fcc9c262bac980fe0ac0
 
   $name = ( isset($_POST["Name"]) ) ? trim($_POST["Name"]) : '';
   $email = ( isset($_POST["Email"]) ) ? trim($_POST["Email"]) : '';
@@ -57,6 +60,7 @@
 
 echo $result ? 'SUCCESS. Email has been sent!' : 'ERROR';
 
+<<<<<<< HEAD
 function sendMailAttachment($to_email, $reply_email, $subject, $html_body, $file = false){
   try {
     $SesClient = new SesClient([
@@ -112,4 +116,33 @@ function sendMailAttachment($to_email, $reply_email, $subject, $html_body, $file
     return false;
   }
 }
+=======
+function sendMailAttachment($mailTo, $from, $subject, $message, $file = false){
+  $separator = "---";
+
+  $headers = "MIME-Version: 1.0\r\n";
+  $headers .= "From: $from\nReply-To: $from\n";
+  $headers .= "Content-Type: multipart/mixed; boundary=\"$separator\"";
+
+  $bodyMail = "--$separator\n";
+  $bodyMail .= "Content-Type:text/html; charset=\"utf-8\"\n";
+  $bodyMail .= "Content-Transfer-Encoding: 7bit\n\n";
+  $bodyMail .= $message."\n";
+  if($file){
+    $bodyMail .= "--$separator\n";
+    $fileRead = fopen($file, "r");
+    $contentFile = fread($fileRead, filesize($file));
+    fclose($fileRead);
+    $bodyMail .= "Content-Type: application/octet-stream; name==?utf-8?B?".base64_encode(basename($file))."?=\n"; 
+    $bodyMail .= "Content-Transfer-Encoding: base64\n";
+    $bodyMail .= "Content-Disposition: attachment; filename==?utf-8?B?".base64_encode(basename($file))."?=\n\n";
+    $bodyMail .= chunk_split(base64_encode($contentFile))."\n";
+    $bodyMail .= "--".$separator ."--\n";
+  }
+  $result = mail($mailTo, $subject, $bodyMail, $headers);
+  return $result;
+}
+
+
+>>>>>>> fb252cdb126495a26370fcc9c262bac980fe0ac0
 ?>
